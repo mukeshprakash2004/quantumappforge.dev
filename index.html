@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quantum App Forge</title>
+<meta name="description" content="Quantum App Forge is an independent Android developer. We make Brainfloss, a Pomodoro focus timer that keeps your session data on your device.">
+<style>
+  :root {
+    --cream: #FBF7F0;
+    --ink: #1A1A1F;
+    --faint: #6E6A64;
+    --coral: #FF4D4D;
+    --purple: #7C3AED;
+    --rule: #E5E0D8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --cream: #14141A;
+      --ink: #F2EFE9;
+      --faint: #9C978F;
+      --rule: #2C2C36;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2.5rem 1.25rem 4rem;
+    background: var(--cream);
+    color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 {
+    font-size: clamp(1.9rem, 6vw, 2.6rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: var(--coral);
+    margin: 0 0 0.4rem;
+  }
+  .tagline { color: var(--faint); margin: 0 0 2.5rem; font-size: 1.05rem; }
+  h2 {
+    font-size: 1.15rem;
+    letter-spacing: -0.01em;
+    margin: 2.5rem 0 0.6rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+  }
+  p { margin: 0 0 1rem; }
+  a { color: var(--purple); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  ul { margin: 0 0 1rem; padding-left: 1.2rem; }
+  li { margin-bottom: 0.35rem; }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    color: var(--faint);
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Quantum App Forge</h1>
+  <p class="tagline">An independent Android developer.</p>
+
+  <h2>Brainfloss</h2>
+  <p>
+    A Pomodoro focus timer for Android. Twenty-five minutes of focus, five of
+    rest, and a score for the day. The timer runs in a foreground service, so it
+    keeps counting with the screen off and the app in the background.
+  </p>
+  <p>
+    Session history and daily scores are stored on your device. Signing in is
+    optional and only exists to back that history up so it survives a new phone.
+  </p>
+  <p>Brainfloss is launching on Google Play shortly.</p>
+
+  <h2>Contact</h2>
+  <p>
+    <a href="mailto:support@quantumappforge.dev">support@quantumappforge.dev</a>
+  </p>
+
+  <footer>
+    &copy; 2026 Quantum App Forge
+  </footer>
+</main>
+</body>
+</html>
